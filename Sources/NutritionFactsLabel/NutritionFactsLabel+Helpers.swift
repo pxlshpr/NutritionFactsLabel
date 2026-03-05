@@ -1,7 +1,7 @@
 import SwiftUI
 import PrepUnits
 
-extension NutritionLabelView {
+extension NutritionFactsLabel {
     
     var borderColor: Color {
         colorScheme == .dark ? .white : .black

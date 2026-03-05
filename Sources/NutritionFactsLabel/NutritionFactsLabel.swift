@@ -2,7 +2,7 @@ import SwiftUI
 import SwiftHaptics
 import PrepUnits
 
-public struct NutritionLabelView<Provider: NutritionFactsLabelDataProvider>: View {
+public struct NutritionFactsLabel<Provider: NutritionFactsLabelDataProvider>: View {
     
     @Environment(\.colorScheme) var colorScheme: ColorScheme
     

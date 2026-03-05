@@ -1,7 +1,7 @@
 import SwiftUI
 import PrepUnits
 
-extension NutritionLabelView {
+extension NutritionFactsLabel {
     
     var proteinRow: some View {
         row(title: "Protein", value: dp.proteinAmount, rdaValue: MacroRDA.protein, unit: "g", bold: true)
